@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="drawer_background_dark_purple">#4A148C</color>
+    <color name="drawer_background_light_purple">#E1BEE7</color>
+    <color name="darker_gray">#263238</color>
+    <color name="main_text_color">#673AB7</color>
+</resources>

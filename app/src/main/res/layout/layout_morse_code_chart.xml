@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FAFAFA"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <android.support.v7.widget.AppCompatTextView
+        android:background="#FAFAFA"
+        android:id="@+id/Official_Morse_Code_Translation_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.80"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="Official Morse Code Translation"
+        android:fontFamily="cursive"
+        android:textColor="@color/main_text_color"
+        android:autoSizeTextType="uniform"/>
+    <ScrollView
+        android:background="#FAFAFA"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Official_Morse_Code_Translation_text"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.75"
+        app:layout_goneMarginBottom="5dp">
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="36"
+                android:columnCount="3"
+                android:id="@+id/grid_layout"
+                android:stretchMode="spacingWidthUniform"
+                android:gravity="center"
+                android:verticalSpacing="10dp"
+                >
+            </GridLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Morse_Chart"
+            android:icon="@drawable/ic_morsechart"
+            android:title="Morse Code Chart"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/Text_to_Morse"
+            android:icon="@drawable/ic_text_to_morse"
+            android:title="Text to Morse"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/Morse_to_Text"
+            android:icon="@drawable/ic_morse_to_text"
+            android:title="Morse to Text"
+            android:checkable="true"/>
+    </group>
+</menu>
